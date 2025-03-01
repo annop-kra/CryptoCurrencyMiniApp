@@ -17,9 +17,9 @@ okhttp3Logging = "4.12.0"
 room = "2.6.1"
 koin = "4.0.1"
 lifecycle = "2.8.7"
-navigation = "2.8.7"
+navigation = "2.8.8"
 paging = "3.3.6"
-safe-args = "2.8.7"
+safe-args = "2.8.8"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -49,4 +49,7 @@ koin-androidx-navigation = { module = "io.insert-koin:koin-androidx-navigation",
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+org-jetbrains-kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+androidx-navigation-safeargs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "safe-args" }
 
