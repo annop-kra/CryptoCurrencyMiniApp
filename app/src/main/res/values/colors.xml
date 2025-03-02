@@ -2,4 +2,22 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="green">#13BC24</color>
+    <color name="red">#F82D2D</color>
+    <color name="silver_sand">#C4C4C4</color>
+    <color name="spanish_gray">#9E9E9E</color>
+    <color name="bright_gray">#EEEEEE</color>
+    <color name="dark_charcoal">#333333</color>
+    <color name="silver">#C7C9C7</color>
+    <color name="brilliant_azure">#38A0FF</color>
+
+
+    <color name="background_primary">#FFFFFFFF</color>
+    <color name="background_primary_second">#EEEEEE</color>
+    <color name="background_line">#E6E7E8</color>
+    <color name="background_edittext">#EEEEEE</color>
+    <color name="background_card">#F9F9F9</color>
+
+    <color name="text_symbol">#999999</color>
+    <color name="text_main">#FF000000</color>
 </resources>

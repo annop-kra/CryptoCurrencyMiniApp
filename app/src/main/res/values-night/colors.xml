@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#fff</color>
+    <color name="silver_sand">#C4C4C4</color>
+    <color name="spanish_gray">#9E9E9E</color>
+    <color name="bright_gray">#EEEEEE</color>
+
+
+    <color name="background_primary">#121212</color>
+    <color name="background_primary_second">#212831</color>
+    <color name="background_line">#52647A</color>
+    <color name="background_edittext">#212831</color>
+    <color name="background_card">#212831</color>
+
+    <color name="text_symbol">#999999</color>
+    <color name="text_main">#fff</color>
+</resources>

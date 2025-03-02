@@ -17,7 +17,8 @@
         android:theme="@style/Theme.CryptoCurrencyMiniApp"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.main.MainActivity"
+            android:name=".presentation.ui.main.MainActivity"
+            android:theme="@style/Theme.CryptoCurrencyMiniApp"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

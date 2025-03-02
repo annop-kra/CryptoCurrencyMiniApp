@@ -1,7 +1,9 @@
 package com.ankn.cryptocurrencyminiapp
 
 import android.app.Application
-import org.koin.android.ext.android.getKoin
+import com.ankn.cryptocurrencyminiapp.di.dataModule
+import com.ankn.cryptocurrencyminiapp.di.domainModule
+import com.ankn.cryptocurrencyminiapp.di.viewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.GlobalContext.startKoin
 
@@ -11,8 +13,7 @@ class CryptoCurrencyMiniApplication : Application() {
         startKoin {
             androidContext(this@CryptoCurrencyMiniApplication)
             modules(
-                /*dataModule, domainModule, presentationModule, navigationModule,
-                viewModelModule*/
+                dataModule, domainModule, viewModelModule
             )
         }
     }

@@ -18,7 +18,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField("String", "BASE_URL", "\"https://jsonplaceholder.typicode.com/\"")
+        buildConfigField("String", "BASE_URL", "\"https://api.coinranking.com/\"")
     }
 
     buildTypes {
@@ -51,6 +51,8 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
+    implementation(libs.swiperefreshlayout)
+
     // ViewModel และ LiveData
     implementation(libs.lifecycle.viewmodel.ktx)
     implementation(libs.lifecycle.livedata.ktx)
@@ -76,6 +78,10 @@ dependencies {
 
     // paging 3
     implementation(libs.paging)
+
+    // coil
+    implementation(libs.coil)
+    implementation(libs.coil.svg)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

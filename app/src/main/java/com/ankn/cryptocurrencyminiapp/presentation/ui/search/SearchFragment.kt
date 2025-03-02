@@ -1,4 +1,4 @@
-package com.ankn.cryptocurrencyminiapp.presentation.search
+package com.ankn.cryptocurrencyminiapp.presentation.ui.search
 
 import android.os.Bundle
 import android.view.LayoutInflater
